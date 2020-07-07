@@ -10,6 +10,9 @@
     接收到URL传递的参数:
     {{$route.params.id}}
     {{$route.params.title}}
+
+
+
   </div>
 </template>
 
@@ -20,7 +23,11 @@ export default {
     return {
       msg: "I am 单页面多路由区域操作"
     };
-  }
+  },
+  mounted() {
+    const a = 1;
+    // a=2;
+  },
 };
 </script>
 
